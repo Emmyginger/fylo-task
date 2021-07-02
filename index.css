@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: hsl(218, 28%, 13%); 
+    
+}
+header{
+    margin-top: 2rem;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .navbar a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 2.5rem;
+    color:hsl(0, 3%, 87%);
+}
+header .navbar a:hover{
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+body .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:hsl(0, 3%, 87%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    
+
+}
+body .intro-text{
+    margin-top: 3rem;
+}
+body .intro-text-mobile{
+    display: none;
+}
+body .intro-text-accessible, .intro-text-all{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 2.5rem;
+}
+body .intro-text-accessible{
+    display: flex;
+    justify-content: center;
+}
+body .intro-text-fylo{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+body .intro-text-access, .intro-text-friends{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.intro-btn {
+    margin-top: 1.5rem;
+    width: 14.5rem;
+    height: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    background-color:hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    
+}
+.intro-btn:hover{
+    background-color:hsl(176, 77%, 83%);
+}
+body .features{
+    display: grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: auto auto ;
+    padding: 8rem;
+    font-family: 'Raleway', sans-serif;
+}
+.features1 h3{
+    color:hsl(0, 0%, 100%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+ .features1 img{
+    margin-left: 15rem;
+
+}
+.features1 p{
+    color: hsl(0, 3%, 87%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.productive{
+    display: flex;
+    flex: 1 1;
+    padding: 4rem;
+    font-family: 'Raleway', sans-serif;
+}
+.productive .productive-text {
+    margin-top: 9rem;
+    margin-left: 2rem;
+}
+.productive .productive-text h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 2.5rem;
+}
+.productive .productive-text h3{
+    display: none;  
+}
+
+.productive .productive-text .text1, .text2{
+    margin-top: 1rem;
+    font-size: 14px;
+    color: hsl(0, 3%, 87%);
+    font-family: 'Open Sans',sans-serif;
+}
+.productive .productive-text .text3,a{
+    color: hsl(198, 60%, 50%);
+    position: relative;
+    margin-top: 2rem;
+    text-decoration: underline;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.productive .productive-text .text3 a:hover{
+    color: hsl(0, 3%, 87%);
+}
+body .review{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    font-family: 'Open Sans',sans-serif;
+}
+.review .box1{
+    background-color: hsl(219, 30%, 18%);
+    margin-right: 2rem;
+    border: 1px solid hsl(219, 30%, 18%) ;
+    border-radius: 1px;
+    box-shadow: 2px hsl(219, 30%, 18%) ;
+    padding: 2rem 1rem;
+} 
+.review img{
+    height: 3rem;
+    
+}
+.review .profile-img img{
+    border-radius: 100%;
+    height: 5rem;
+}
+.review .profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.review .box1 p{
+    color: hsl(0, 3%, 87%);
+    font-size: 14px;
+}
+.review .box1  .mobile{
+    display: none;
+}
+.profile .profile-text{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.profile .profile-text h5{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.profile .profile-text p{
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+    padding-top: 12rem;
+    background-color: hsl(216, 53%, 9%);
+    margin-top: 10rem;
+    font-family: 'Open Sans',sans-serif;
+    color: hsl(0, 3%, 87%);
+    font-size: 14px;
+}
+footer .address{
+    margin-top: 1rem;
+    display: flex;
+    flex: 1 1;
+    
+}
+footer .address img{
+    height: 1rem;
+    margin-right: 1rem;
+}
+footer .phone, .about, .contact, .social{
+    margin-top: 5rem;
+}
+footer .phone img{
+    margin-right: 1rem;
+}
+footer a{
+    color: hsl(0, 3%, 87%);
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+footer a:hover{
+    color:hsl(0, 0%, 100%) ;
+}
+footer .social a{
+    height: 2rem;
+    width:2rem;
+    line-height: 1.5rem;
+    background:hsl(216, 53%, 9%);
+    color:hsl(0, 3%, 87%) ;;
+    border: 1px solid hsl(0, 3%, 87%);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding: 0.3rem;
+    margin-right: 1rem;
+    
+}
+footer .social a:hover{
+    color:hsl(176, 68%, 64%) ;
+}
+
+.access{
+    position: absolute;
+    background-color: hsl(217, 28%, 15%);
+    margin-left: 20rem;
+    margin-top: 5rem;
+    width: 60%;
+    height: 14rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.access h3{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.access p{
+    color: hsl(0, 3%, 87%);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Open Sans',sans-serif;
+}
+.access .email-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: center;
+    
+}
+.email-box input{
+    width: 30rem;
+    margin-right: 1rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    
+}
+.email-btn button {
+    
+    width: 14.5rem;
+    height: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    background-color:hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    
+}
+.email-btn button:hover{
+    background-color:hsl(176, 77%, 83%);
+}
+
+@media (max-width:400px){
+    
+    header{
+        margin-top: 0.5rem;
+        width: 0.7rem;
+        
+        
+    }
+    header .logo img{
+        width: 6rem;
+    }
+    header .navbar{
+        display: flex;
+        flex-direction: row;
+        margin-top: -2rem;
+        
+        
+        
+        
+    }
+    header .navbar a{
+        font-size: 8px;
+        
+        
+    }
+    .intro-img img{
+        width: 15rem;
+        margin-right: 2rem;
+    }
+    body .intro-text-accessible, .intro-text-all{
+        text-align: center;
+        font-size: 1.1rem;
+        padding-left: 2.1rem;
+        padding-right: 2.1rem;
+    }
+    body .intro-text-access, .intro-text-friends{
+        display: none;
+    }
+    body .intro-text-fylo{
+        display: none;
+    }
+    body .intro-text-mobile{
+        font-size: 12px;
+        display: flex;
+        text-align: center;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+    }
+    .intro-btn{
+        width: 13rem;
+        margin-right: 1rem;
+    }
+    body .features{
+        display: flex;
+        flex-direction: column;
+        width: 90rem;
+        
+    }
+    .features1 img{
+        margin-left: 2rem;
+    }
+    .features1-text h3{
+        font-size: 1rem;
+        margin-right: 60rem;
+        margin-left: -4rem;
+        
+    }
+    .features1-text p{
+        font-size: 12px;
+        margin-right: 60rem;
+        margin-left: -6rem;
+        
+        
+    }
+    .productive{
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: -6rem;
+        
+    }
+    .productive-img img{
+        width: 16rem;
+    }
+    .productive .productive-text h2{
+        display: none;
+    }
+    .productive .productive-text h3{
+        display: flex;
+        color: hsl(0, 0%, 100%);
+        font-size: 1rem;
+        margin-left: -2rem;
+        margin-right: -1rem;
+        margin-top: -6rem;
+    }
+    .productive .productive-text .text1, .text2,.text3{
+        color: hsl(0, 3%, 87%);
+        margin-left: -2rem;
+        margin-top: 1rem;
+        margin-right: -1rem;
+        font-size: 0.8rem;
+    }
+    body .review{
+        display: flex;
+        flex-direction: column;
+    }
+    body .review img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .review .box1{
+        width: 15rem;
+        height: 12rem;
+        margin-bottom: 1rem;
+    }
+    .review .box1 p{
+        display: none;
+        
+    }
+    .review .box1  .mobile{
+        display: block;
+        font-size: 11px;
+    }
+    .review .profile-text{
+        margin-top: -0.6rem;
+    }
+    .review .box1 .profile-text p{
+        display: block;
+        font-size: 11px;
+        margin-top: -1rem;
+    }
+    .review .box1 .profile-text h5{
+        font-size: 14px;
+    }
+    .review .profile-img img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .access{
+        margin-left: 2rem;
+        width: 20rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+        margin-top: -3rem;
+    }
+    .access .email-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .access-text h3{
+        font-size: 1.2rem;
+    }
+    .access p{
+        font-size: 0.85rem;
+    }
+    .email-box input{
+        width: 17rem;
+    }
+    .email-box button{
+        margin-top: 1rem;
+        width: 17rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    footer .logo img{
+        width: 5rem;
+    }
+    footer .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
